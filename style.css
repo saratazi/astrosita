@@ -1232,3 +1232,41 @@ button {
   width: 17px;
   height: 17px;
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 25px 0;
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 50%;
+  color: #aaa6c9;
+  transition: all 0.3s ease;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.instagram:hover {
+  color: #e879f9;
+  border-color: #e879f9;
+  box-shadow: 0 0 18px rgba(232,121,249,0.4);
+  transform: translateY(-5px);
+}
+
+.x-icon:hover {
+  color: white;
+  border-color: white;
+  box-shadow: 0 0 18px rgba(255,255,255,0.3);
+  transform: translateY(-5px);
+}
