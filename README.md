@@ -1,4 +1,4 @@
-# COSMOS — Astronomy Website
+# ASTROSITA — Astronomy Website
 
 A responsive, single-page astronomy website built with HTML, CSS and vanilla JavaScript.
 
