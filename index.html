@@ -17,8 +17,18 @@
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <header class="site-header">
   <a class="brand" href="#home">
-    <i data-lucide="satellite" class="brand-icon"></i>
-    ASTROSITA
+  <svg class="brand-saturn" viewBox="0 0 40 40"
+       fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="20" cy="20" rx="18" ry="7"
+             transform="rotate(-30 20 20)"
+             stroke="currentColor" stroke-width="2.5"/>
+    <circle cx="20" cy="20" r="8"
+            fill="currentColor"/>
+    <path d="M4 27 Q20 17 36 8"
+          stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round"/>
+  </svg>
+  ASTROSITA
 </a>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"><i data-lucide="menu"></i></button>
     <nav class="main-nav" id="mainNav">
