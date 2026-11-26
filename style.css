@@ -1295,4 +1295,26 @@ button {
 .brand:hover .brand-icon {
     color: #ff8bd1;
 }
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ff8fbd !important;
+    font-weight: 700;
+    text-decoration: none;
+}
 
+.brand-saturn {
+    width: 30px;
+    height: 30px;
+    color: #ff8fbd !important;
+    flex-shrink: 0;
+}
+
+.brand:hover {
+    color: #ffb3d1 !important;
+}
+
+.brand:hover .brand-saturn {
+    color: #ffb3d1 !important;
+}
