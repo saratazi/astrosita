@@ -1273,4 +1273,26 @@ button {
 .quiz-decoration {
     display: none;
 }
+.brand {
+    color: #f5e6ff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.brand-icon {
+    width: 25px;
+    height: 25px;
+    color: #d98aff;
+    stroke-width: 2.2;
+}
+
+.brand:hover {
+    color: #e9a4ff;
+}
+
+.brand:hover .brand-icon {
+    color: #ff8bd1;
+}
 
